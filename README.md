@@ -4,7 +4,7 @@
 > Paste each instruction block into Copilot Studio → New agent → Instructions field.
 > No coding required. Deploy in minutes.
 
-[![GitHub stars](https://img.shields.io/github/stars/mathieukessler/awesome-copilot-studio-agents?style=flat-square)](https://github.com/mathieukessler/awesome-copilot-studio-agents/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-studio-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-studio-agents/stargazers)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 > **71 production-ready agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
@@ -223,7 +223,7 @@ The library contains 71 agents across 13 domains. See [AGENTS.md](AGENTS.md) for
 
 **Using Microsoft 365 Copilot prompts rather than agents?**
 
-[**Awesome Microsoft Copilot Prompts →**](https://github.com/mathieukessler/awesome-microsoft-copilot-prompts) — 365 production-tested M365 Copilot prompts across 17 role-specific collections. No Copilot Studio required — paste directly into Copilot Chat, Outlook, Teams, or Word.
+[**Awesome Microsoft Copilot Prompts →**](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 365 production-tested M365 Copilot prompts across 17 role-specific collections. No Copilot Studio required — paste directly into Copilot Chat, Outlook, Teams, or Word.
 
 **Need enterprise AI deployment support?**
 
@@ -263,7 +263,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [AUTHORING-CHECKLIST.md](AUTHORING-CH
 - **[Contributing Guide](CONTRIBUTING.md)** — submission process
 - **[AI at Work Newsletter](https://newsletter.kesslernity.com)** — biweekly GenAI briefing
 - **[Free AI Course](https://trainings.kesslernity.com)** — AI Quick Start Essentials (35 min, free)
-- **[365 Copilot Prompts](https://github.com/mathieukessler/awesome-microsoft-copilot-prompts)** — the companion prompts repository
+- **[365 Copilot Prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts)** — the companion prompts repository
 - **[NerdyChefs.ai](https://nerdychefs.ai)** — 1,600+ free AI prompts
 - **[Kesslernity](https://kesslernity.com)** — enterprise AI deployment platform
 - **[License](https://creativecommons.org/licenses/by-sa/4.0/)** — CC BY-SA 4.0
