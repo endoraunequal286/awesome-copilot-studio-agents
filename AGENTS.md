@@ -1,6 +1,6 @@
 # Agent Library
 
-> **71 agents across 13 domains.**
+> **73 agents across 13 domains.**
 > All agents are instruction-only and deploy in minutes via Copilot Studio.
 > Paste each instruction block into Copilot Studio → New agent → Instructions field.
 
@@ -81,6 +81,8 @@
 | 56 | [IT Request Scoper](agents/it-ops/it-request-scoper.md) | Help non-technical staff write clear IT service requests |
 | 57 | [Runbook Writer](agents/it-ops/runbook-writer.md) | Convert bullet-point procedures into structured runbooks |
 | 58 | [Security Risk Communicator](agents/it-ops/security-risk-communicator.md) | Translate technical security findings into plain-language risk summaries |
+| 72 | [Change-Incident Correlator](agents/it-ops/change-incident-correlator.md) | Identify incidents likely caused by recent changes using temporal and semantic matching |
+| 73 | [Problem Pattern Detector](agents/it-ops/problem-pattern-detector.md) | Find recurring incident patterns for Problem Management — CI-agnostic, with request filtering |
 
 ---
 
@@ -187,7 +189,7 @@
 | HR & People | 8 |
 | Productivity | 1 |
 | Finance & Reporting | 5 |
-| IT & Digital | 5 |
+| IT & Digital | 7 |
 | Customer Success | 2 |
 | Sales & Business Development | 8 |
 | Strategy & Executive | 4 |
@@ -195,8 +197,8 @@
 | ESG & Sustainability | 4 |
 | Commercial & Legal | 9 |
 | Advanced / MCP | 4 |
-| **Total** | **71** |
+| **Total** | **73** |
 
 ---
 
-*Last updated: 2026-03-24*
+*Last updated: 2026-03-26*

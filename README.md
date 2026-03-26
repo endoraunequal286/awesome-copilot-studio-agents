@@ -1,13 +1,13 @@
 # Awesome Copilot Studio Agents
 
-> **71 production-ready declarative agents for Microsoft 365 Copilot.**
+> **73 production-ready declarative agents for Microsoft 365 Copilot.**
 > Paste each instruction block into Copilot Studio → New agent → Instructions field.
 > No coding required. Deploy in minutes.
 
 [![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-studio-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-studio-agents/stargazers)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-> **71 production-ready agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
+> **73 production-ready agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
 
 ---
 
@@ -118,6 +118,8 @@ Every agent in this library:
 | 56 | [**IT Request Scoper**](agents/it-ops/it-request-scoper.md) | Help non-technical staff write clear IT service requests | All Staff / Business Analysts | None | `@IT Request Scoper ...` |
 | 57 | [**Runbook Writer**](agents/it-ops/runbook-writer.md) | Convert bullet-point procedures into structured runbooks | IT Ops / DevOps / Platform Engineers | None | `@Runbook Writer ...` |
 | 58 | [**Security Risk Communicator**](agents/it-ops/security-risk-communicator.md) | Translate technical security findings into plain-language risk summaries | CISOs / Security Teams / Risk Committees | None | `@Security Risk Communicator ...` |
+| 72 | [**Change-Incident Correlator**](agents/it-ops/change-incident-correlator.md) | Identify incidents likely caused by recent changes using temporal and semantic matching | IT / ITSM / Change Management | None | `@Change-Incident Correlator ...` |
+| 73 | [**Problem Pattern Detector**](agents/it-ops/problem-pattern-detector.md) | Find recurring incident patterns for Problem Management — CI-agnostic, with request filtering | IT / ITSM / Problem Management | None | `@Problem Pattern Detector ...` |
 
 ### Customer Success
 
@@ -215,7 +217,7 @@ A complete 13-agent suite built for Engineering, Procurement, and Construction p
 
 ## Full Library
 
-The library contains 71 agents across 13 domains. See [AGENTS.md](AGENTS.md) for the complete index with links to every agent.
+The library contains 73 agents across 13 domains. See [AGENTS.md](AGENTS.md) for the complete index with links to every agent.
 
 ---
 
@@ -258,7 +260,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [AUTHORING-CHECKLIST.md](AUTHORING-CH
 
 ## Quick Links
 
-- **[Agent Library](AGENTS.md)** — complete index of all 71 agents with links
+- **[Agent Library](AGENTS.md)** — complete index of all 73 agents with links
 - **[Authoring Checklist](AUTHORING-CHECKLIST.md)** — standards for contributing agents
 - **[Contributing Guide](CONTRIBUTING.md)** — submission process
 - **[AI at Work Newsletter](https://newsletter.kesslernity.com)** — biweekly GenAI briefing
