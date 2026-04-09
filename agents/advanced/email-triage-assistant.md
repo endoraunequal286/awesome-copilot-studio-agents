@@ -122,15 +122,35 @@ Email contains sensitive personal data or confidential information: do not inclu
 
 ## Knowledge Sources
 
-**Required: Outlook via Microsoft Graph API.**
+**Required: Outlook via Microsoft Graph API (Office 365 Outlook connector action).**
 
-Connect the user's Outlook mailbox via Microsoft Graph. Confirm data classification and access permissions with IT and information security before deployment. This agent handles business email — do not deploy for shared mailboxes or distribution lists without additional configuration.
+This agent reads inbox data through the Office 365 Outlook connector in Copilot Studio. The connector uses delegated authentication — it accesses the signed-in user's mailbox, not a shared or service account. Do not deploy against shared mailboxes or distribution lists without additional configuration.
 
 ## Deployment Notes
 
+**This agent requires copilotstudio.microsoft.com — not the simple agent builder at m365.cloud.microsoft.** The simple builder does not support connector actions.
+
+**Step-by-step setup:**
+
+1. Go to [copilotstudio.microsoft.com](https://copilotstudio.microsoft.com) → **Create** → **New agent** → **Skip to configure**
+2. Name: `Email Triage Assistant` — paste the description from this file
+3. Paste the full instruction block into the **Instructions** field
+4. In the left nav, click **Actions** → **Add an action**
+5. Search for **Office 365 Outlook** → select **Get emails (V3)**
+6. Click **Next** → create a connection by signing in with the user's M365 account
+7. Under action inputs, set **Folder** to `inbox` and **Fetch only unread messages** to `true`
+8. Save → **Publish**
+
+After publishing, the agent is available in Microsoft 365 Copilot Chat via `@Email Triage Assistant`.
+
+**If the connector is not available:**
+- Your tenant may have Power Platform connectors disabled. Ask your M365 admin to enable Office 365 connectors in the Power Platform admin center.
+- This is a tenant-level setting and is off by default in some organisations.
+
+**Additional deployment rules:**
 - No email is ever sent without explicit user confirmation — this is a hard rule and must not be overridden.
 - Test with a low-volume inbox before rolling out to high-volume users such as senior leaders and executive assistants.
-- For users in regulated industries: confirm that AI-assisted triage of email content is permitted under applicable data handling policies.
+- For regulated industries: confirm that AI-assisted triage of email content is permitted under your data handling policies before deployment.
 
 ## Changelog
 
