@@ -23,6 +23,8 @@ Want to go beyond agents? **AI Quick Start Essentials** is a free 35-minute cour
 
 **[Start the free course →](https://trainings.kesslernity.com)** — no signup wall, no credit card.
 
+**New:** [M365 Copilot Field Guide](https://github.com/kesslernity/m365-copilot-field-guide) — 12 interactive reference guides (decision map, failure triage, one guide per feature)
+
 ---
 
 ## What This Is
